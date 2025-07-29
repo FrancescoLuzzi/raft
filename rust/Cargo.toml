@@ -1,2 +1,7 @@
 [workspace]
+resolver = "3"
 members = [ "crates/bin", "crates/raft-cm"]
+
+[workspace.dependencies]
+prost = "0.14.1"
+prost-types = "0.14.1"
