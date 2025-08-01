@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = [ "crates/bin", "crates/raft-cm"]
+members = [ "crates/bin", "crates/raft-proto"]
 
 [workspace.dependencies]
 prost = "0.14.1"
